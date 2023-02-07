@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sea_shells_galleries",
+  "info": {
+    "singularName": "sea-shells-gallery",
+    "pluralName": "sea-shells-galleries",
+    "displayName": "Sea shells gallery",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

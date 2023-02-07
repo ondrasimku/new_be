@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_page_lists",
+  "info": {
+    "displayName": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    }
+  }
+}

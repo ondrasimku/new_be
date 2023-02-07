@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menu_items",
+  "info": {
+    "singularName": "menu-item",
+    "pluralName": "menu-items",
+    "displayName": "Menu_items",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "alergens": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Drink",
+        "Minutky",
+        "Hotovky",
+        "Přílohy",
+        "Uzené Ryby",
+        "Minutkové Ryby",
+        "Saláty",
+        "Polévky"
+      ],
+      "required": true
+    },
+    "calories": {
+      "type": "string"
+    }
+  }
+}

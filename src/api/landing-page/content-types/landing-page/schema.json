@@ -1,0 +1,94 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header_1": {
+      "type": "string",
+      "required": true
+    },
+    "text_1": {
+      "type": "text",
+      "required": true
+    },
+    "header_2": {
+      "type": "string",
+      "required": true
+    },
+    "text_2": {
+      "type": "text",
+      "required": true
+    },
+    "main_image_1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "main_image_2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "list": {
+      "displayName": "list",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.list",
+      "required": true
+    },
+    "image_1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image_2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header_3": {
+      "type": "string",
+      "required": true
+    },
+    "text_3": {
+      "type": "text",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "opening_time": {
+      "displayName": "opening_time",
+      "type": "component",
+      "repeatable": true,
+      "component": "landing-page.opening-time",
+      "required": true
+    }
+  }
+}
